@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(29, 29, 29);
+    /* color: #0e0d0d; */
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #f7f3f3;
+    text-align: center;
+    margin-top: 20px;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #333;
+    color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.form-container {
+    width: 78%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(54, 53, 53);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    
+}
+.form-container h2 {
+    margin-top: 0;
+}
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+.form-container input[type="text"] {
+    width: calc(100% - 24px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+.form-container input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.form-container input[type="submit"]:hover {
+    background-color: #0c0202;
+}
+.action-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.action-links a.update {
+    background-color: #2a2b2a;
+    color: #fff;
+}
+.action-links a.delete {
+    background-color: #f44336;
+    color: #fff;
+}
+.action-links a.update:hover {
+    background-color: #232423;
+}
+.action-links a.insert:hover {
+    background-color: #1bdb1b;
+}
+
+.action-links a.insert {
+    background-color: #14b452;
+    color: #fff;
+}
+.action-links a.delete:hover {
+    background-color: #e53935;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 0;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin: 5px 0;
+}
+.form-group input[type="text"] {
+    width: calc(100% - 24px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #555;
+}
+.container {
+    width: 78%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(54, 53, 53);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff}
